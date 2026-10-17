@@ -1,0 +1,44 @@
+{
+  "version": "OB55",
+  "author": "ROCKET",
+  "aim_config": {
+    "enabled": true,
+    "drag_speed": 1.5,
+    "snap_to_head": true,
+    "fov": 360,
+    "smooth_factor": 0.0,
+    "trigger_bot": true
+  },
+  "hitbox_scale": {
+    "head": {
+      "scale_x": 1.5,
+      "scale_y": 1.5,
+      "scale_z": 1.5,
+      "offset_y": 1.65
+    },
+    "neck": {
+      "scale_x": 1.2,
+      "scale_y": 1.2,
+      "scale_z": 1.2,
+      "offset_y": 1.55
+    },
+    "chest": {
+      "scale_x": 0.1,
+      "scale_y": 0.1,
+      "scale_z": 0.1,
+      "offset_y": 1.2
+    },
+    "hip": {
+      "scale_x": 0.1,
+      "scale_y": 0.1,
+      "scale_z": 0.1,
+      "offset_y": 0.9
+    }
+  },
+  "weapon_tweak": {
+    "no_recoil": true,
+    "no_spread": true,
+    "fast_reload": true,
+    "infinite_ammo": false
+  }
+}
